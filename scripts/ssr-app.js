@@ -87,24 +87,24 @@ const ServerHeroSection = () => {
             React.createElement('h1', {
                 key: 'title',
                 className: 'text-5xl md:text-7xl font-bold text-gray-900 mb-6 font-playfair scroll-animate'
-            }, 'Building Excellence'),
+            }, 'Samsher Buildcon'),
             React.createElement('h2', {
                 key: 'subtitle',
                 className: 'text-2xl md:text-3xl text-gray-700 mb-8 font-playfair scroll-animate'
-            }, 'Premier Construction & Infrastructure Solutions'),
+            }, 'Premier Construction Services'),
             React.createElement('p', {
                 key: 'description',
                 className: 'text-lg md:text-xl text-gray-600 mb-12 max-w-2xl mx-auto leading-relaxed scroll-animate'
-            }, 'With years of expertise in civil and mechanical contracting, we deliver quality construction services, infrastructure development, and comprehensive project management solutions.'),
+            }, 'Since 2021, Samsher Buildcon has been delivering top-notch civil and mechanical contracting services. We specialize in site analysis, feasibility studies, preliminary design, and permit/zoning applications. Serving Jharkhand, Bihar, West Bengal, and Odisha, we handle industrial, manufacturing, office, retail, recreational, healthcare, and commercial projects.'),
             React.createElement('div', {
                 key: 'cta-buttons',
                 className: 'flex flex-col sm:flex-row gap-4 justify-center scroll-animate'
             }, [
                 React.createElement('a', {
-                    key: 'projects-btn',
-                    href: '#projects',
+                    key: 'works-btn',
+                    href: '#works',
                     className: 'bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 shadow-lg'
-                }, 'View Our Projects'),
+                }, 'View Our Works'),
                 React.createElement('a', {
                     key: 'contact-btn',
                     href: '#contact',
@@ -131,11 +131,11 @@ const ServerAboutSection = () => {
                 React.createElement('h2', {
                     key: 'title',
                     className: 'text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-playfair'
-                }, 'About Samsher Buildcon'),
+                }, 'What Makes Us Different?'),
                 React.createElement('p', {
                     key: 'subtitle',
                     className: 'text-xl text-gray-600 max-w-3xl mx-auto'
-                }, 'A trusted name in construction and infrastructure development with years of proven expertise')
+                }, 'Since 2021, delivering top-notch civil and mechanical contracting services')
             ]),
             React.createElement('div', {
                 key: 'content',
@@ -145,52 +145,47 @@ const ServerAboutSection = () => {
                     key: 'text',
                     className: 'scroll-animate'
                 }, [
-                    React.createElement('h3', {
-                        key: 'heading',
-                        className: 'text-2xl font-bold text-gray-900 mb-6 font-playfair'
-                    }, 'Excellence in Every Project'),
                     React.createElement('p', {
                         key: 'para1',
                         className: 'text-gray-600 mb-4 leading-relaxed'
-                    }, 'Samsher Buildcon stands as a premier construction company with extensive experience in civil and mechanical contracting. We specialize in delivering high-quality building services, infrastructure development, and comprehensive project management solutions across residential, commercial, and industrial sectors.'),
+                    }, 'Since 2021, Samsher Buildcon has been delivering top-notch civil and mechanical contracting services. We specialize in site analysis, feasibility studies, preliminary design, and permit/zoning applications. Serving Jharkhand, Bihar, West Bengal, and Odisha, we handle industrial, manufacturing, office, retail, recreational, healthcare, and commercial projects.'),
                     React.createElement('p', {
                         key: 'para2',
                         className: 'text-gray-600 mb-4 leading-relaxed'
-                    }, 'Our commitment to excellence, safety, and timely delivery has made us a trusted partner for clients across various sectors. We combine traditional craftsmanship with modern technology to create structures that stand the test of time.'),
-                    React.createElement('p', {
-                        key: 'para3',
-                        className: 'text-gray-600 mb-6 leading-relaxed'
-                    }, 'With a focus on quality, health, safety, and environmental (QHSE) standards, we ensure every project meets the highest industry benchmarks while maintaining cost-effectiveness and adherence to project timelines.'),
+                    }, 'Partner with us for exceptional construction services and experience The Samsher Buildcon difference. Our commitment to excellence, safety, and timely delivery has made us a trusted partner across various sectors in Eastern India.'),
                     React.createElement('div', {
-                        key: 'strengths',
-                        className: 'mt-8'
+                        key: 'ceo-info',
+                        className: 'mt-8 p-4 bg-gray-50 rounded-lg'
                     }, [
                         React.createElement('h4', {
-                            key: 'strengths-title',
-                            className: 'text-lg font-semibold text-gray-900 mb-4'
-                        }, 'Our Core Strengths:'),
-                        React.createElement('ul', {
-                            key: 'strengths-list',
-                            className: 'text-gray-600 space-y-2'
-                        }, [
-                            React.createElement('li', { key: 'strength1' }, '• Experienced team of civil and mechanical engineers'),
-                            React.createElement('li', { key: 'strength2' }, '• Comprehensive project management capabilities'),
-                            React.createElement('li', { key: 'strength3' }, '• Strong focus on health, safety, and environmental compliance'),
-                            React.createElement('li', { key: 'strength4' }, '• Quality assurance and timely project delivery'),
-                            React.createElement('li', { key: 'strength5' }, '• Modern equipment and construction technology'),
-                            React.createElement('li', { key: 'strength6' }, '• Proven track record across multiple industry sectors')
-                        ])
+                            key: 'ceo-name',
+                            className: 'text-xl font-semibold text-gray-900'
+                        }, 'Afroz Khan'),
+                        React.createElement('h5', {
+                            key: 'ceo-title',
+                            className: 'text-md text-gray-500'
+                        }, 'CEO, Founder'),
+                        React.createElement('p', {
+                            key: 'ceo-message',
+                            className: 'text-gray-600 mt-2'
+                        }, 'Leading Samsher Buildcon with a vision to deliver exceptional construction services across Eastern India.')
                     ])
                 ]),
                 React.createElement('div', {
-                    key: 'image',
-                    className: 'scroll-animate'
+                    key: 'images',
+                    className: 'scroll-animate relative'
                 }, [
                     React.createElement('img', {
-                        key: 'about-img',
-                        src: '/images/Untitled-design-5.png',
-                        alt: 'Samsher Buildcon construction site showing quality workmanship and modern construction techniques',
-                        className: 'rounded-lg shadow-lg w-full h-auto'
+                        key: 'main-img',
+                        src: '/images/glenov-brankovic-DWp5nUqTn6E-unsplash-scaled.jpg',
+                        alt: 'Construction site with crane showing Samsher Buildcon construction work',
+                        className: 'w-4/5 h-auto object-cover rounded-xl shadow-2xl'
+                    }),
+                    React.createElement('img', {
+                        key: 'overlay-img',
+                        src: '/images/WhatsApp-Image-2024-07-25-at-12.57.21-PM-scaled.jpeg',
+                        alt: 'Interior construction work by Samsher Buildcon',
+                        className: 'absolute top-0 right-0 w-3/5 h-3/5 object-cover rounded-xl shadow-2xl border-8 border-white'
                     })
                 ])
             ])
@@ -201,40 +196,40 @@ const ServerAboutSection = () => {
 const ServerServicesSection = () => {
     const services = [
         {
-            title: 'Building Construction',
-            description: 'Complete residential and commercial building construction services with focus on quality and durability. We handle everything from foundation to finishing, ensuring structural integrity and aesthetic appeal.',
+            title: 'Mixture Machines',
+            description: 'Reliable and efficient machines for consistent concrete and mortar mixing on-site. Our mixture machines ensure proper blending of cement, sand, aggregates, and water to achieve optimal concrete strength and consistency for all construction applications.',
             icon: '🏗️',
-            details: ['Residential construction', 'Commercial buildings', 'Industrial facilities', 'Renovation and remodeling']
+            imgSrc: '/images/png-transparent-cement-mixers-machine-industry-concrete-maquinaria-gunny-sack-industry-agricultural-machinery-removebg-preview.png'
         },
         {
-            title: 'Infrastructure Development',
-            description: 'Large-scale infrastructure projects including roads, bridges, and public facilities. Our expertise covers urban development and public infrastructure projects.',
-            icon: '🌉',
-            details: ['Road construction', 'Bridge development', 'Public facilities', 'Urban infrastructure']
+            title: 'Water Tankers',
+            description: 'Ensuring a steady supply of water for all construction needs, from dust control to concrete mixing. Our water tankers provide reliable water supply for construction sites, supporting various activities including concrete preparation, dust suppression, and site cleaning.',
+            icon: '🚛',
+            imgSrc: '/images/Untitled-design-5.png'
         },
         {
-            title: 'Project Management',
-            description: 'Comprehensive project management services ensuring timely delivery and cost-effectiveness. We oversee every aspect from planning to completion.',
-            icon: '📋',
-            details: ['Project planning', 'Resource management', 'Quality control', 'Timeline management']
-        },
-        {
-            title: 'Civil Engineering',
-            description: 'Professional civil engineering services for complex construction and infrastructure projects. Our engineers provide technical expertise and innovative solutions.',
+            title: 'Hydraulic Machines',
+            description: 'Versatile machinery for various construction tasks, delivering power and precision. Our hydraulic machines provide the necessary force and control for heavy-duty construction operations, including lifting, pressing, and material handling applications.',
             icon: '⚙️',
-            details: ['Structural design', 'Site analysis', 'Technical consulting', 'Engineering solutions']
+            imgSrc: '/images/Untitled-design-6.png'
         },
         {
-            title: 'Mechanical Contracting',
-            description: 'Specialized mechanical contracting services including HVAC systems, plumbing, and mechanical installations for various building types.',
+            title: 'Rod Cutting and Binding Machines',
+            description: 'High-precision machines for cutting and binding reinforcement rods, ensuring structural integrity. These specialized machines provide accurate cutting and efficient binding of steel reinforcement bars, essential for concrete reinforcement in construction projects.',
             icon: '🔧',
-            details: ['HVAC systems', 'Plumbing services', 'Mechanical installations', 'System maintenance']
+            imgSrc: '/images/Untitled-design-7.png'
         },
         {
-            title: 'QHSE Compliance',
-            description: 'Quality, Health, Safety, and Environmental compliance services ensuring all projects meet industry standards and regulatory requirements.',
-            icon: '🛡️',
-            details: ['Safety protocols', 'Environmental compliance', 'Quality assurance', 'Risk management']
+            title: 'Comprehensive Civil Construction Tools',
+            description: 'A complete arsenal of tools and equipment to tackle any civil construction challenge, big or small. Our comprehensive tool inventory includes hand tools, power tools, and specialized equipment for all phases of construction work.',
+            icon: '🛠️',
+            imgSrc: '/images/Untitled-design-8.png'
+        },
+        {
+            title: 'Scaffolding Materials',
+            description: 'High-quality, safe, and reliable scaffolding systems to support workers and materials at any height. Our scaffolding materials meet safety standards and provide secure working platforms for construction activities at various elevations.',
+            icon: '🏗️',
+            imgSrc: '/images/Untitled-design-10.png'
         }
     ];
 
@@ -253,11 +248,11 @@ const ServerServicesSection = () => {
                 React.createElement('h2', {
                     key: 'title',
                     className: 'text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-playfair'
-                }, 'Our Services'),
+                }, 'Tools and Tackles'),
                 React.createElement('p', {
                     key: 'subtitle',
                     className: 'text-xl text-gray-600 max-w-3xl mx-auto'
-                }, 'Comprehensive construction and infrastructure solutions')
+                }, 'Professional construction equipment and machinery for all your project needs')
             ]),
             React.createElement('div', {
                 key: 'services-grid',
@@ -279,14 +274,17 @@ const ServerServicesSection = () => {
                         key: 'description',
                         className: 'text-gray-600 mb-4'
                     }, service.description),
-                    service.details && React.createElement('ul', {
-                        key: 'details',
-                        className: 'text-sm text-gray-500 space-y-1'
-                    }, service.details.map((detail, detailIndex) =>
-                        React.createElement('li', {
-                            key: detailIndex
-                        }, `• ${detail}`)
-                    ))
+                    service.imgSrc && React.createElement('div', {
+                        key: 'image',
+                        className: 'mt-4 flex justify-center'
+                    }, [
+                        React.createElement('img', {
+                            key: 'service-img',
+                            src: service.imgSrc,
+                            alt: service.title,
+                            className: 'max-h-20 w-auto object-contain'
+                        })
+                    ])
                 ])
             ))
         ])
@@ -363,24 +361,76 @@ const ServerFooter = () => {
 const ServerProjectsSection = () => {
     const projects = [
         {
-            title: 'Commercial Complex Development',
-            description: 'Multi-story commercial complex with modern amenities and sustainable design features.',
-            category: 'Commercial Construction'
+            title: 'CKP Bazaar',
+            description: 'A landmark multi-functional commercial complex featuring state-of-the-art retail spaces and a magnificent banquet hall. The project showcases modern architectural principles with a focus on user experience and high footfall management.',
+            category: 'Commercial',
+            imgSrc: '/images/WhatsApp-Image-2024-07-25-at-12.57.21-PM-scaled.jpeg'
         },
         {
-            title: 'Residential Housing Project',
-            description: 'Large-scale residential development with focus on quality living spaces and community facilities.',
-            category: 'Residential Construction'
+            title: 'Eco-Friendly Site Barricading',
+            description: 'Implementation of sustainable and robust bamboo barricades for large-scale project sites. This eco-friendly solution provides effective site control while minimizing environmental impact.',
+            category: 'Infrastructure',
+            imgSrc: '/images/photo_2024-01-29_22-42-42.jpg'
         },
         {
-            title: 'Infrastructure Development',
-            description: 'Road construction and bridge development project improving regional connectivity.',
-            category: 'Infrastructure'
+            title: 'National Highway Safety Enhancement',
+            description: 'Precision installation of highway crash barriers along key national routes. This critical infrastructure project significantly enhances road safety and prevents accidents through meticulous engineering and execution.',
+            category: 'Infrastructure',
+            imgSrc: '/images/247792f9-b6cc-4e34-9c9a-78705af5a0e6.jpeg'
         },
         {
-            title: 'Industrial Facility Construction',
-            description: 'State-of-the-art industrial facility with specialized mechanical systems and safety features.',
-            category: 'Industrial Construction'
+            title: 'Office Building Construction, Jharkhand',
+            description: 'A comprehensive office building project in Jharkhand featuring modern architectural design, efficient space utilization, and contemporary amenities to support business operations and professional growth.',
+            category: 'Commercial',
+            imgSrc: '/images/work/commercial 1.jpeg'
+        },
+        {
+            title: 'Water Tower Construction, Bokaro, Jharkhand',
+            description: 'Strategic construction of a high-capacity water tower in Bokaro, Jharkhand, engineered to provide reliable water supply infrastructure with advanced storage systems and distribution capabilities for the local community.',
+            category: 'Industrial',
+            imgSrc: '/images/work/industrial 1.jpeg'
+        },
+        {
+            title: 'Boundary Wall Construction, Orissa',
+            description: 'Robust boundary wall construction project in Orissa featuring reinforced concrete structure, security enhancements, and weather-resistant design to provide long-lasting perimeter protection and property demarcation.',
+            category: 'Infrastructure',
+            imgSrc: '/images/work/industrial 2.jpeg'
+        },
+        {
+            title: 'Warehouse Construction, Orissa',
+            description: 'Large-scale warehouse facility construction in Orissa designed for optimal storage capacity, efficient logistics operations, and modern material handling systems to support industrial and commercial distribution needs.',
+            category: 'Industrial',
+            imgSrc: '/images/work/industrial 3.jpeg'
+        },
+        {
+            title: 'Oxygen Plant, Orissa',
+            description: 'Critical oxygen plant construction in Orissa featuring advanced gas production technology, safety systems, and quality control measures to ensure reliable medical and industrial oxygen supply for healthcare and manufacturing sectors.',
+            category: 'Industrial',
+            imgSrc: '/images/work/industrial 4.jpeg'
+        },
+        {
+            title: 'Colvet Bridge Construction, Saraileka',
+            description: 'Engineering excellence in bridge construction at Saraileka featuring reinforced concrete design, load-bearing capacity optimization, and weather-resistant construction to enhance regional connectivity and transportation infrastructure.',
+            category: 'Infrastructure',
+            imgSrc: '/images/work/infra 1.jpeg'
+        },
+        {
+            title: 'Pipe Laying Work, Jamshedpur',
+            description: 'Comprehensive pipe laying infrastructure project in Jamshedpur involving precision installation of water supply and drainage systems with advanced pipeline technology to ensure efficient utility distribution and urban development support.',
+            category: 'Infrastructure',
+            imgSrc: '/images/work/infra 2.jpeg'
+        },
+        {
+            title: 'House Construction Work, Bihar',
+            description: 'Quality residential house construction project in Bihar featuring modern architectural design, durable materials, and efficient space planning to create comfortable living spaces with contemporary amenities and structural integrity.',
+            category: 'Residential',
+            imgSrc: '/images/work/residential 1.jpeg'
+        },
+        {
+            title: 'Luxury Villas',
+            description: 'Premium luxury villa construction featuring bespoke architectural designs, high-end interior finishes, and sophisticated amenities including landscaped gardens, modern security systems, and energy-efficient technologies for discerning homeowners.',
+            category: 'Residential',
+            imgSrc: '/images/work/residential 2.jpeg'
         }
     ];
 
@@ -399,11 +449,11 @@ const ServerProjectsSection = () => {
                 React.createElement('h2', {
                     key: 'title',
                     className: 'text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-playfair'
-                }, 'Our Projects'),
+                }, 'Our Works'),
                 React.createElement('p', {
                     key: 'subtitle',
                     className: 'text-xl text-gray-600 max-w-3xl mx-auto'
-                }, 'Showcasing our expertise across diverse construction and infrastructure projects')
+                }, 'Explore our diverse portfolio of successful projects across various sectors, showcasing our expertise and commitment to excellence.')
             ]),
             React.createElement('div', {
                 key: 'projects-grid',
@@ -411,20 +461,36 @@ const ServerProjectsSection = () => {
             }, projects.map((project, index) =>
                 React.createElement('div', {
                     key: index,
-                    className: 'bg-gray-50 p-6 rounded-lg'
+                    className: 'bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300'
                 }, [
-                    React.createElement('span', {
-                        key: 'category',
-                        className: 'text-sm text-amber-600 font-semibold'
-                    }, project.category),
-                    React.createElement('h3', {
-                        key: 'title',
-                        className: 'text-xl font-bold text-gray-900 mt-2 mb-3 font-playfair'
-                    }, project.title),
-                    React.createElement('p', {
-                        key: 'description',
-                        className: 'text-gray-600'
-                    }, project.description)
+                    project.imgSrc && React.createElement('div', {
+                        key: 'image',
+                        className: 'h-48 overflow-hidden'
+                    }, [
+                        React.createElement('img', {
+                            key: 'project-img',
+                            src: project.imgSrc,
+                            alt: project.title,
+                            className: 'w-full h-full object-cover'
+                        })
+                    ]),
+                    React.createElement('div', {
+                        key: 'content',
+                        className: 'p-6'
+                    }, [
+                        React.createElement('span', {
+                            key: 'category',
+                            className: 'inline-block px-3 py-1 bg-amber-600 text-white text-sm font-medium rounded-full mb-3'
+                        }, project.category),
+                        React.createElement('h3', {
+                            key: 'title',
+                            className: 'text-xl font-bold text-gray-900 mb-3 font-playfair'
+                        }, project.title),
+                        React.createElement('p', {
+                            key: 'description',
+                            className: 'text-gray-600 text-sm leading-relaxed'
+                        }, project.description)
+                    ])
                 ])
             ))
         ])
@@ -460,49 +526,88 @@ const ServerClientsSection = () => {
                 React.createElement('p', {
                     key: 'description',
                     className: 'text-lg text-gray-600 mb-8 max-w-2xl mx-auto'
-                }, 'We have successfully completed projects for government agencies, private corporations, residential developers, and industrial clients. Our diverse portfolio demonstrates our capability to handle projects of varying scales and complexities.'),
+                }, 'We are proud to have collaborated with a diverse range of industry leaders and esteemed organizations, building strong partnerships founded on trust and exceptional results. Our valued clients include major corporations and local businesses across Eastern India.'),
                 React.createElement('div', {
-                    key: 'sectors',
-                    className: 'grid md:grid-cols-3 gap-6 mt-12'
+                    key: 'clients-grid',
+                    className: 'grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12'
                 }, [
                     React.createElement('div', {
-                        key: 'government',
-                        className: 'bg-white p-6 rounded-lg shadow'
+                        key: 'tata-steel',
+                        className: 'bg-white p-6 rounded-lg shadow text-center'
                     }, [
                         React.createElement('h3', {
                             key: 'title',
-                            className: 'text-lg font-bold text-gray-900 mb-3'
-                        }, 'Government Sector'),
+                            className: 'text-lg font-bold text-gray-900 mb-2'
+                        }, 'Tata Steel Foundation'),
                         React.createElement('p', {
                             key: 'description',
-                            className: 'text-gray-600'
-                        }, 'Public infrastructure projects, government buildings, and municipal facilities')
+                            className: 'text-gray-600 text-sm'
+                        }, 'Major industrial and infrastructure projects')
                     ]),
                     React.createElement('div', {
-                        key: 'private',
-                        className: 'bg-white p-6 rounded-lg shadow'
+                        key: 'tata-uisl',
+                        className: 'bg-white p-6 rounded-lg shadow text-center'
                     }, [
                         React.createElement('h3', {
                             key: 'title',
-                            className: 'text-lg font-bold text-gray-900 mb-3'
-                        }, 'Private Sector'),
+                            className: 'text-lg font-bold text-gray-900 mb-2'
+                        }, 'Tata Steel UISL'),
                         React.createElement('p', {
                             key: 'description',
-                            className: 'text-gray-600'
-                        }, 'Commercial buildings, corporate offices, and private development projects')
+                            className: 'text-gray-600 text-sm'
+                        }, 'Specialized construction and maintenance services')
                     ]),
                     React.createElement('div', {
-                        key: 'industrial',
-                        className: 'bg-white p-6 rounded-lg shadow'
+                        key: 'beldih-club',
+                        className: 'bg-white p-6 rounded-lg shadow text-center'
                     }, [
                         React.createElement('h3', {
                             key: 'title',
-                            className: 'text-lg font-bold text-gray-900 mb-3'
-                        }, 'Industrial Sector'),
+                            className: 'text-lg font-bold text-gray-900 mb-2'
+                        }, 'Tata Steel Beldih Club'),
                         React.createElement('p', {
                             key: 'description',
-                            className: 'text-gray-600'
-                        }, 'Manufacturing facilities, warehouses, and specialized industrial structures')
+                            className: 'text-gray-600 text-sm'
+                        }, 'Recreational and commercial facility construction')
+                    ]),
+                    React.createElement('div', {
+                        key: 'md-issa',
+                        className: 'bg-white p-6 rounded-lg shadow text-center'
+                    }, [
+                        React.createElement('h3', {
+                            key: 'title',
+                            className: 'text-lg font-bold text-gray-900 mb-2'
+                        }, 'Md Issa khan & Sons'),
+                        React.createElement('p', {
+                            key: 'description',
+                            className: 'text-gray-600 text-sm'
+                        }, 'Private construction and development projects')
+                    ]),
+                    React.createElement('div', {
+                        key: 'diamond-enterprises',
+                        className: 'bg-white p-6 rounded-lg shadow text-center'
+                    }, [
+                        React.createElement('h3', {
+                            key: 'title',
+                            className: 'text-lg font-bold text-gray-900 mb-2'
+                        }, 'New Diamond Enterprises'),
+                        React.createElement('p', {
+                            key: 'description',
+                            className: 'text-gray-600 text-sm'
+                        }, 'Commercial and industrial construction services')
+                    ]),
+                    React.createElement('div', {
+                        key: 'khan-brothers',
+                        className: 'bg-white p-6 rounded-lg shadow text-center'
+                    }, [
+                        React.createElement('h3', {
+                            key: 'title',
+                            className: 'text-lg font-bold text-gray-900 mb-2'
+                        }, 'Khan Brothers & Construction'),
+                        React.createElement('p', {
+                            key: 'description',
+                            className: 'text-gray-600 text-sm'
+                        }, 'Collaborative construction and infrastructure projects')
                     ])
                 ])
             ])
@@ -539,7 +644,7 @@ const ServerContactSection = () => {
                 React.createElement('p', {
                     key: 'description',
                     className: 'text-lg text-gray-600 mb-8'
-                }, 'Ready to start your next construction project? Contact Samsher Buildcon today for professional consultation and competitive quotes. Our experienced team is here to help bring your vision to life.'),
+                }, 'Ready to start your next construction project? Contact Samsher Buildcon today for professional consultation and competitive quotes. Our experienced team is here to help bring your vision to life with quality construction services across Jharkhand, Bihar, West Bengal, and Odisha.'),
                 React.createElement('div', {
                     key: 'contact-info',
                     className: 'bg-gray-50 p-8 rounded-lg'
@@ -551,12 +656,183 @@ const ServerContactSection = () => {
                     React.createElement('p', {
                         key: 'services-list',
                         className: 'text-gray-600 mb-6'
-                    }, 'We provide comprehensive construction services including building construction, infrastructure development, project management, civil engineering, mechanical contracting, and QHSE compliance.'),
+                    }, 'We provide comprehensive construction services including site analysis, feasibility studies, preliminary design, and permit/zoning applications. We handle industrial, manufacturing, office, retail, recreational, healthcare, and commercial projects across Jharkhand, Bihar, West Bengal, and Odisha.'),
+                    React.createElement('div', {
+                        key: 'contact-details',
+                        className: 'grid md:grid-cols-2 gap-6 mb-6'
+                    }, [
+                        React.createElement('div', {
+                            key: 'office-info',
+                            className: 'text-left'
+                        }, [
+                            React.createElement('h4', {
+                                key: 'office-title',
+                                className: 'font-semibold text-gray-900 mb-2'
+                            }, 'Head Office'),
+                            React.createElement('p', {
+                                key: 'office-address',
+                                className: 'text-sm text-gray-600 mb-2'
+                            }, 'Near Makkah Masjid Road Godwon Area, B Block Dhatkidih, Bistupur, Jamshedpur – 831001'),
+                            React.createElement('p', {
+                                key: 'office-phone1',
+                                className: 'text-sm text-gray-600'
+                            }, 'Phone: +91 7004503386'),
+                            React.createElement('p', {
+                                key: 'office-phone2',
+                                className: 'text-sm text-gray-600'
+                            }, 'Phone: +91 06572951805'),
+                            React.createElement('p', {
+                                key: 'office-email',
+                                className: 'text-sm text-gray-600'
+                            }, 'Email: info@samsherbuildcon.com')
+                        ]),
+                        React.createElement('div', {
+                            key: 'service-areas',
+                            className: 'text-left'
+                        }, [
+                            React.createElement('h4', {
+                                key: 'areas-title',
+                                className: 'font-semibold text-gray-900 mb-2'
+                            }, 'Service Areas'),
+                            React.createElement('p', {
+                                key: 'areas-list',
+                                className: 'text-sm text-gray-600 mb-2'
+                            }, 'Jharkhand, Bihar, West Bengal, Odisha'),
+                            React.createElement('p', {
+                                key: 'specialization',
+                                className: 'text-sm text-gray-600'
+                            }, 'Specializing in civil and mechanical contracting services'),
+                            React.createElement('p', {
+                                key: 'consultation',
+                                className: 'text-sm text-gray-600'
+                            }, 'Professional consultation and project management')
+                        ])
+                    ]),
                     React.createElement('p', {
                         key: 'cta',
                         className: 'text-lg font-semibold text-amber-600'
-                    }, 'Contact us today for your construction project consultation')
+                    }, 'Contact us today for your construction project consultation!')
                 ])
+            ])
+        ])
+    ]);
+};
+
+const ServerManpowerSection = () => {
+    const manpowerRoles = [
+        {
+            title: 'Project Estimators',
+            description: 'Our estimators provide accurate and reliable cost and time assessments, helping to plan and budget your project effectively.'
+        },
+        {
+            title: 'Architects',
+            description: 'Professional architects who design innovative and functional structures, ensuring aesthetic appeal and structural integrity in every project.'
+        },
+        {
+            title: 'Accountants',
+            description: 'Expert financial management and budgeting ensure that all aspects of your project are financially sound and well-organized.'
+        },
+        {
+            title: 'Skilled & Experienced Supervisors',
+            description: 'Our supervisors oversee each project with a focus on quality and safety, ensuring that all work meets our high standards.'
+        },
+        {
+            title: 'Skilled Craftsmen',
+            description: 'Proficient masons and tradespeople who are dedicated to delivering excellent craftsmanship on every task.'
+        },
+        {
+            title: 'Night Guards',
+            description: 'Providing security and peace of mind by safeguarding the construction site around the clock.'
+        },
+        {
+            title: 'Experienced Helpers',
+            description: 'Support staff with hands-on experience who assist in various construction activities, enhancing efficiency and productivity.'
+        }
+    ];
+
+    const certifications = [
+        'ESIC Registered', 'GST', 'Labour License', 'Udyam Aadhar', 'BOCW', 'MSME', 'NIBOSH', 'IOSH', 'OSHA'
+    ];
+
+    return React.createElement('section', {
+        id: 'manpower',
+        className: 'py-20 bg-gray-50'
+    }, [
+        React.createElement('div', {
+            key: 'container',
+            className: 'container mx-auto px-4'
+        }, [
+            React.createElement('div', {
+                key: 'header',
+                className: 'text-center mb-16'
+            }, [
+                React.createElement('h2', {
+                    key: 'title',
+                    className: 'text-4xl md:text-5xl font-bold text-gray-900 mb-6 font-playfair'
+                }, 'Manpower Strength'),
+                React.createElement('p', {
+                    key: 'subtitle',
+                    className: 'text-xl text-gray-600 max-w-3xl mx-auto'
+                }, 'At Samsher Buildcon, we believe that the foundation of our success is our highly skilled and dedicated workforce. Our team is comprised of professionals who bring a wealth of experience and expertise to every project, ensuring exceptional results.')
+            ]),
+            React.createElement('div', {
+                key: 'manpower-grid',
+                className: 'grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-16'
+            }, manpowerRoles.map((role, index) =>
+                React.createElement('div', {
+                    key: index,
+                    className: 'bg-white p-6 rounded-lg shadow hover:shadow-lg transition-shadow'
+                }, [
+                    React.createElement('h3', {
+                        key: 'title',
+                        className: 'text-lg font-bold text-gray-900 mb-3'
+                    }, role.title),
+                    React.createElement('p', {
+                        key: 'description',
+                        className: 'text-gray-600 text-sm'
+                    }, role.description)
+                ])
+            )),
+            React.createElement('div', {
+                key: 'certifications',
+                className: 'bg-white rounded-2xl p-8 shadow-md'
+            }, [
+                React.createElement('div', {
+                    key: 'cert-header',
+                    className: 'text-center mb-8'
+                }, [
+                    React.createElement('h3', {
+                        key: 'cert-title',
+                        className: 'text-3xl font-bold text-gray-900 mb-4 font-playfair'
+                    }, 'Certified and Compliant'),
+                    React.createElement('p', {
+                        key: 'cert-subtitle',
+                        className: 'text-lg text-gray-600'
+                    }, 'We are fully registered and compliant with all necessary regulations, ensuring every project is built on a foundation of trust and legality.')
+                ]),
+                React.createElement('div', {
+                    key: 'cert-grid',
+                    className: 'grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4'
+                }, certifications.map((cert, index) =>
+                    React.createElement('div', {
+                        key: index,
+                        className: 'flex items-center space-x-3 p-3 bg-gray-50 rounded-lg'
+                    }, [
+                        React.createElement('div', {
+                            key: 'check',
+                            className: 'w-5 h-5 bg-amber-600 rounded-full flex items-center justify-center'
+                        }, [
+                            React.createElement('span', {
+                                key: 'checkmark',
+                                className: 'text-white text-xs'
+                            }, '✓')
+                        ]),
+                        React.createElement('span', {
+                            key: 'cert-name',
+                            className: 'text-sm font-medium text-gray-700'
+                        }, cert)
+                    ])
+                ))
             ])
         ])
     ]);
@@ -567,6 +843,7 @@ const ServerMainPage = () => {
         React.createElement(ServerHeroSection, { key: 'hero' }),
         React.createElement(ServerAboutSection, { key: 'about' }),
         React.createElement(ServerServicesSection, { key: 'services' }),
+        React.createElement(ServerManpowerSection, { key: 'manpower' }),
         React.createElement(ServerProjectsSection, { key: 'projects' }),
         React.createElement(ServerClientsSection, { key: 'clients' }),
         React.createElement(ServerContactSection, { key: 'contact' })
@@ -605,11 +882,15 @@ const ServerHSEPolicyPage = () => {
                     React.createElement('p', {
                         key: 'commitment-text',
                         className: 'text-gray-600 mb-4 leading-relaxed'
-                    }, 'Samsher Buildcon is dedicated to providing a safe and healthy working environment for all employees, contractors, and stakeholders. We believe that all workplace injuries and environmental incidents are preventable through proper planning, training, and implementation of safety protocols.'),
+                    }, 'Samsher Buildcon is dedicated to providing a safe and healthy working environment for all employees, contractors, and stakeholders across our 200+ construction projects. We believe that all workplace injuries and environmental incidents are preventable through proper planning, comprehensive training, and systematic implementation of safety protocols based on international standards including OHSAS 18001, ISO 14001, and ISO 45001.'),
                     React.createElement('p', {
                         key: 'commitment-text2',
                         className: 'text-gray-600 mb-4 leading-relaxed'
-                    }, 'Our QHSE (Quality, Health, Safety, and Environment) policy is integrated into all aspects of our business operations, from project planning to execution and completion.')
+                    }, 'Our QHSE (Quality, Health, Safety, and Environment) policy is integrated into all aspects of our business operations, from initial project planning and design to execution, monitoring, and completion. We maintain a zero-accident safety record with over 10 million safe man-hours worked across our projects.'),
+                    React.createElement('p', {
+                        key: 'commitment-text3',
+                        className: 'text-gray-600 mb-4 leading-relaxed'
+                    }, 'Our commitment extends beyond compliance to creating a culture of safety excellence where every team member takes personal responsibility for their safety and that of their colleagues. We invest over ₹50 lakhs annually in safety training, equipment, and system improvements.')
                 ]),
 
                 React.createElement('section', {
