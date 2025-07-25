@@ -152,9 +152,9 @@ export const WORKS: Work[] = [
 ];
 
 export const CLIENTS: Client[] = [
-    { name: 'Tata Steel Foundation', logo: '/images/work/tatasteel.png' },
-    { name: 'Tata Steel USIL (JUSCO)', logo: '/images/work/tatasteelUSIL.png' },
-    { name: 'The Beldih Club, Jamshedpur', logo: '/images/work/Beldih Club.jpeg' },
+    { name: 'Tata Steel Foundation', logo: '/images/tatasteel.svg' },
+    { name: 'Tata Steel UISL', logo: '/images/tatasteeluisl.svg' },
+    { name: 'Tata Steel Beldih Club', logo: '/images/beldihclub.svg' },
     { name: 'Md Issa khan & Sons' },
     { name: 'New Diamond Enterprises' },
     { name: 'Khan Brothers & Construction' },
