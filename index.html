@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samsher Buildcon</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap"
+    rel="stylesheet">
+  <link rel="preload" href="/buildcon header.svg" as="image">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            'playfair': ['Playfair Display', 'serif'],
+            'poppins': ['Poppins', 'sans-serif'],
+          },
+          colors: {
+            'cream': '#EDE8DF',
+          }
+        }
+      }
+    }
+  </script>
+
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.0/",
+    "react": "https://esm.sh/react@^19.1.0",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.0/"
+  }
+}
+</script>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #EDE8DF;
+      color: #111827;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: 'Playfair Display', serif;
+    }
+
+    /* Scroll Animation Styles */
+    .scroll-animate {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+
+    .scroll-animate.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Header optimization */
+    header {
+      will-change: background-color, backdrop-filter;
+    }
+
+    /* Prevent layout shift */
+    header img {
+      width: auto;
+      height: 3.5rem;
+      aspect-ratio: auto;
+    }
+
+    /* Modal animations */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: scale(0.95) translateY(20px);
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+      }
+    }
+
+    /* Optimize modal performance */
+    [role="dialog"] {
+      will-change: opacity, transform;
+      contain: layout style paint;
+    }
+
+    /* Smooth image loading */
+    [role="dialog"] img {
+      will-change: auto;
+      image-rendering: -webkit-optimize-contrast;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+
+</html>
