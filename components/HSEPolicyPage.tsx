@@ -1,4 +1,5 @@
 import React from 'react';
+import SEOHead from './SEOHead';
 
 const CheckIcon: React.FC<{ className?: string }> = ({ className }) => (
     <svg className={className} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor">
@@ -9,6 +10,7 @@ const CheckIcon: React.FC<{ className?: string }> = ({ className }) => (
 const HSEPolicyPage: React.FC = () => {
     return (
         <div>
+            <SEOHead path="/hse-policy" />
 
 
             <section className="py-16 lg:py-24 scroll-animate">

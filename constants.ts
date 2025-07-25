@@ -85,69 +85,69 @@ export const WORKS: Work[] = [
   },
   {
     imgSrc: '/images/work/commercial 1.jpeg',
-    title: 'New Commercial Development',
+    title: 'Office Building Construction, Jharkhand',
     category: 'Commercial',
-    description: 'A modern commercial space designed for business growth and customer engagement.'
+    description: 'A comprehensive office building project in Jharkhand featuring modern architectural design, efficient space utilization, and contemporary amenities to support business operations and professional growth.'
   },
   {
     imgSrc: '/images/work/industrial 1.jpeg',
-    title: 'Industrial Plant Construction',
+    title: 'Water Tower Construction, Bokaro, Jharkhand',
     category: 'Industrial',
-    description: 'Full-scale construction of a new industrial plant, from groundwork to finishing.'
+    description: 'Strategic construction of a high-capacity water tower in Bokaro, Jharkhand, engineered to provide reliable water supply infrastructure with advanced storage systems and distribution capabilities for the local community.'
   },
   {
     imgSrc: '/images/work/industrial 2.jpeg',
-    title: 'Industrial Warehouse',
-    category: 'Industrial',
-    description: 'A large-scale warehouse facility for industrial storage and logistics.'
+    title: 'Boundary Wall Construction, Orissa',
+    category: 'Infrastructure',
+    description: 'Robust boundary wall construction project in Orissa featuring reinforced concrete structure, security enhancements, and weather-resistant design to provide long-lasting perimeter protection and property demarcation.'
   },
   {
     imgSrc: '/images/work/industrial 3.jpeg',
-    title: 'Manufacturing Unit',
+    title: 'Warehouse Construction, Orissa',
     category: 'Industrial',
-    description: 'A state-of-the-art manufacturing unit with modern facilities.'
+    description: 'Large-scale warehouse facility construction in Orissa designed for optimal storage capacity, efficient logistics operations, and modern material handling systems to support industrial and commercial distribution needs.'
   },
   {
     imgSrc: '/images/work/industrial 4.jpeg',
-    title: 'Industrial Complex',
+    title: 'Oxygen Plant, Orissa',
     category: 'Industrial',
-    description: 'A comprehensive industrial complex to support various business operations.'
+    description: 'Critical oxygen plant construction in Orissa featuring advanced gas production technology, safety systems, and quality control measures to ensure reliable medical and industrial oxygen supply for healthcare and manufacturing sectors.'
   },
   {
     imgSrc: '/images/work/infra 1.jpeg',
-    title: 'Road and Bridge Construction',
+    title: 'Colvet Bridge Construction, Saraileka',
     category: 'Infrastructure',
-    description: 'Building robust and reliable roads and bridges for better connectivity.'
+    description: 'Engineering excellence in bridge construction at Saraileka featuring reinforced concrete design, load-bearing capacity optimization, and weather-resistant construction to enhance regional connectivity and transportation infrastructure.'
   },
   {
     imgSrc: '/images/work/infra 2.jpeg',
-    title: 'Public Utility Infrastructure',
+    title: 'Pipe Laying Work, Jamshedpur',
     category: 'Infrastructure',
-    description: 'Developing essential public utility infrastructure for communities.'
+    description: 'Comprehensive pipe laying infrastructure project in Jamshedpur involving precision installation of water supply and drainage systems with advanced pipeline technology to ensure efficient utility distribution and urban development support.'
   },
   {
     imgSrc: '/images/work/residential 1.jpeg',
-    title: 'Modern Residential Apartments',
+    title: 'House Construction Work, Bihar',
     category: 'Residential',
-    description: 'Contemporary residential apartments with premium amenities.'
+    description: 'Quality residential house construction project in Bihar featuring modern architectural design, durable materials, and efficient space planning to create comfortable living spaces with contemporary amenities and structural integrity.'
   },
   {
     imgSrc: '/images/work/residential 2.jpeg',
     title: 'Luxury Villas',
     category: 'Residential',
-    description: 'Exclusive luxury villas with bespoke designs and high-end finishes.'
+    description: 'Premium luxury villa construction featuring bespoke architectural designs, high-end interior finishes, and sophisticated amenities including landscaped gardens, modern security systems, and energy-efficient technologies for discerning homeowners.'
   },
   {
     imgSrc: '/images/work/residential 3.jpeg',
     title: 'Gated Community Housing',
     category: 'Residential',
-    description: 'Secure and well-planned gated community housing projects.'
+    description: 'Comprehensive gated community development featuring secure perimeter walls, controlled access systems, recreational facilities, and well-planned residential units with modern infrastructure to create a safe and comfortable living environment.'
   },
   {
     imgSrc: '/images/work/residential 4.jpeg',
     title: 'Affordable Housing Project',
     category: 'Residential',
-    description: 'Quality and affordable housing solutions for modern living.'
+    description: 'Cost-effective residential housing solutions designed with quality construction materials, efficient space utilization, and essential modern amenities to provide comfortable and affordable living options for families and individuals.'
   }
 ];
 

@@ -1,5 +1,21 @@
 {
   "name": "Samsher Buildcon Website",
   "description": "A modern, responsive informational website for Samsher Buildcon, a civil and mechanical contracting company. It showcases their services, projects, clients, and company strengths.",
+  "version": "1.0.0",
+  "author": "Samsher Buildcon",
+  "keywords": ["construction", "building", "infrastructure", "civil engineering", "mechanical contracting", "project management", "QHSE", "safety"],
+  "seo": {
+    "optimized": true,
+    "staticGeneration": true,
+    "structuredData": true,
+    "sitemap": true,
+    "robotsTxt": true
+  },
+  "performance": {
+    "preloadCriticalResources": true,
+    "imageOptimization": true,
+    "cssMinification": true,
+    "jsMinification": true
+  },
   "requestFramePermissions": []
 }

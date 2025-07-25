@@ -5,8 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "npm run build:client && npm run build:static && npm run build:sitemap && npm run build:verify",
+    "build:client": "vite build",
+    "build:static": "node scripts/generate-static.js",
+    "build:sitemap": "node scripts/generate-sitemap.js",
+    "build:verify": "node scripts/verify-seo.js",
+    "preview": "vite preview",
+    "seo:test": "npm run build && echo '🔍 Testing SEO optimization...' && node -e \"console.log('SEO files generated:'); require('fs').readdirSync('dist').forEach(f => console.log('  -', f));\""
   },
   "dependencies": {
     "react": "^19.1.0",
@@ -16,6 +21,8 @@
     "@types/node": "^22.14.0",
     "@types/react": "^19.1.8",
     "@types/react-dom": "^19.1.6",
+    "jsdom": "^25.0.1",
+    "terser": "^5.43.1",
     "typescript": "~5.7.2",
     "vite": "^6.2.0"
   }

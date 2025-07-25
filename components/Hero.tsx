@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
   return (
     <section className="scroll-animate container mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-16 lg:pt-12 lg:pb-24">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-        <div className="relative h-[400px] lg:h-[550px]">
+        <div className="relative h-[400px] lg:h-[550px] hidden lg:block">
           <img
             src="/images/glenov-brankovic-DWp5nUqTn6E-unsplash-scaled.jpg"
             alt="Construction site with a crane"
