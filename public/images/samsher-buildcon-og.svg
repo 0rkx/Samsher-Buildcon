@@ -1,0 +1,40 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#EDE8DF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5F1E8;stop-opacity:1" />
+    </linearGradient>
+    <pattern id="dots" patternUnits="userSpaceOnUse" width="60" height="60">
+      <circle cx="30" cy="30" r="2" fill="#000" opacity="0.05"/>
+    </pattern>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#dots)"/>
+  
+  <!-- Accent circle -->
+  <circle cx="1100" cy="100" r="100" fill="#F59E0B" opacity="0.1"/>
+  
+  <!-- Main content -->
+  <text x="600" y="280" text-anchor="middle" font-family="serif" font-size="48" font-weight="700" fill="#1F2937">
+    Samsher Buildcon
+  </text>
+  
+  <text x="600" y="330" text-anchor="middle" font-family="sans-serif" font-size="24" fill="#4B5563">
+    Premier Construction Services
+  </text>
+  
+  <text x="600" y="380" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#6B7280">
+    Leading construction company providing quality building services,
+  </text>
+  
+  <text x="600" y="410" text-anchor="middle" font-family="sans-serif" font-size="20" fill="#6B7280">
+    infrastructure development, and project management solutions.
+  </text>
+  
+  <!-- Brand mark -->
+  <text x="1140" y="590" text-anchor="end" font-family="serif" font-size="16" font-weight="700" fill="#6B7280">
+    SAMSHER BUILDCON
+  </text>
+</svg>

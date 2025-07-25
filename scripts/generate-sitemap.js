@@ -36,6 +36,11 @@ ${routes.map(route => {
       <image:loc>${baseUrl}/buildcon%20header.svg</image:loc>
       <image:title>Samsher Buildcon Logo</image:title>
       <image:caption>Samsher Buildcon - Premier Construction Services</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>${baseUrl}/images/samsher-buildcon-og.jpg</image:loc>
+      <image:title>Samsher Buildcon Social Share Image</image:title>
+      <image:caption>Leading construction company providing quality building services</image:caption>
     </image:image>`;
   }
   
@@ -65,14 +70,40 @@ ${routes.map(route => {
   // Also generate a robots.txt in dist if it doesn't exist
   const robotsTxtPath = 'dist/robots.txt';
   if (!fs.existsSync(robotsTxtPath)) {
-    const robotsTxt = `User-agent: *
+    const robotsTxt = `# Robots.txt for Samsher Buildcon
+# Generated automatically - do not edit manually
+
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /api/
+
+# Allow important crawlers
+User-agent: Googlebot
 Allow: /
 
-# Sitemap
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Sitemap location
 Sitemap: ${baseUrl}/sitemap.xml
 
-# Crawl-delay
-Crawl-delay: 1`;
+# Crawl delay (in seconds)
+Crawl-delay: 1
+
+# Host directive (preferred domain)
+Host: ${baseUrl}`;
     
     fs.writeFileSync(robotsTxtPath, robotsTxt);
     console.log('✅ Robots.txt generated: dist/robots.txt');

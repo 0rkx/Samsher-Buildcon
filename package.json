@@ -5,13 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run build:client && npm run build:static && npm run build:sitemap && npm run build:verify",
+    "build": "npm run build:client && npm run build:static && npm run build:sitemap && npm run build:social && npm run build:verify",
     "build:client": "vite build",
     "build:static": "node scripts/generate-static.js",
     "build:sitemap": "node scripts/generate-sitemap.js",
+    "build:social": "node scripts/generate-social-images.js",
     "build:verify": "node scripts/verify-seo.js",
     "preview": "vite preview",
-    "seo:test": "npm run build && echo '🔍 Testing SEO optimization...' && node -e \"console.log('SEO files generated:'); require('fs').readdirSync('dist').forEach(f => console.log('  -', f));\""
+    "seo:test": "node scripts/test-seo.js",
+    "seo:full": "npm run seo:test && npm run build && npm run build:verify"
   },
   "dependencies": {
     "react": "^19.1.0",

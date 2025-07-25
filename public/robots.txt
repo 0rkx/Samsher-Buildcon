@@ -1,8 +1,34 @@
+# Robots.txt for Samsher Buildcon
+# Generated automatically - do not edit manually
+
 User-agent: *
 Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /*.json$
+Disallow: /api/
 
-# Sitemap
-Sitemap: https://samsherbuildcon.com/sitemap.xml
+# Allow important crawlers
+User-agent: Googlebot
+Allow: /
 
-# Crawl-delay
+User-agent: Bingbot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Sitemap location
+Sitemap: https://samsher-buildcon.pages.dev/sitemap.xml
+
+# Crawl delay (in seconds)
 Crawl-delay: 1
+
+# Host directive (preferred domain)
+Host: https://samsher-buildcon.pages.dev

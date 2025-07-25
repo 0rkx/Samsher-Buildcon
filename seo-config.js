@@ -1,9 +1,13 @@
 export const seoConfig = {
-  baseUrl: 'https://samsherbuildcon.com',
+  baseUrl: 'https://samsher-buildcon.pages.dev',
   siteName: 'Samsher Buildcon',
   defaultTitle: 'Samsher Buildcon - Premier Construction Services',
   defaultDescription: 'Leading construction company providing quality building services, infrastructure development, and project management solutions.',
-  defaultImage: '/buildcon%20header.svg',
+  defaultImage: '/images/samsher-buildcon-og.svg',
+  defaultImageAlt: 'Samsher Buildcon - Premier Construction Services',
+  twitterHandle: '@samsherbuildcon',
+  language: 'en',
+  locale: 'en_US',
   
   pages: {
     '/': {
@@ -15,8 +19,8 @@ export const seoConfig = {
         "@type": "Organization",
         "name": "Samsher Buildcon",
         "description": "Leading construction company providing quality building services, infrastructure development, and project management solutions.",
-        "url": "https://samsherbuildcon.com",
-        "logo": "https://samsherbuildcon.com/buildcon%20header.svg",
+        "url": "https://samsher-buildcon.pages.dev",
+        "logo": "https://samsher-buildcon.pages.dev/buildcon%20header.svg",
         "foundingDate": "2020",
         "address": {
           "@type": "PostalAddress",
@@ -65,7 +69,7 @@ export const seoConfig = {
         "@type": "WebPage",
         "name": "HSE Policy - Health, Safety & Environmental Excellence",
         "description": "Our comprehensive Health, Safety, and Environmental policy demonstrating our commitment to excellence in all construction projects and operations.",
-        "url": "https://samsherbuildcon.com/hse-policy",
+        "url": "https://samsher-buildcon.pages.dev/hse-policy",
         "mainEntity": {
           "@type": "Policy",
           "name": "Health, Safety & Environmental Policy",
@@ -78,7 +82,7 @@ export const seoConfig = {
         "isPartOf": {
           "@type": "WebSite",
           "name": "Samsher Buildcon",
-          "url": "https://samsherbuildcon.com"
+          "url": "https://samsher-buildcon.pages.dev"
         },
         "breadcrumb": {
           "@type": "BreadcrumbList",
@@ -87,17 +91,46 @@ export const seoConfig = {
               "@type": "ListItem",
               "position": 1,
               "name": "Home",
-              "item": "https://samsherbuildcon.com"
+              "item": "https://samsher-buildcon.pages.dev"
             },
             {
               "@type": "ListItem", 
               "position": 2,
               "name": "HSE Policy",
-              "item": "https://samsherbuildcon.com/hse-policy"
+              "item": "https://samsher-buildcon.pages.dev/hse-policy"
             }
           ]
         }
       }
     }
+  },
+  
+  // Social media and additional SEO settings
+  social: {
+    twitter: '@samsherbuildcon',
+    facebook: 'samsherbuildcon',
+    linkedin: 'company/samsher-buildcon',
+    instagram: 'samsherbuildcon'
+  },
+  
+  // Additional SEO optimizations
+  features: {
+    enableStructuredData: true,
+    enableOpenGraph: true,
+    enableTwitterCards: true,
+    enableCanonicalUrls: true,
+    enableSitemap: true,
+    enableRobotsTxt: true,
+    enableImageSitemap: true
+  },
+  
+  // Performance and technical SEO
+  technical: {
+    enablePreload: true,
+    enablePrefetch: true,
+    enableDNSPrefetch: true,
+    enablePreconnect: true,
+    compressionEnabled: true,
+    minifyEnabled: true
   }
 };

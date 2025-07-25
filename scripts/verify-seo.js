@@ -29,11 +29,14 @@ const verifySSG = () => {
       const content = readFileSync(filePath, 'utf-8');
       const pageConfig = seoConfig.pages[route];
       
-      // Check title
-      if (content.includes(pageConfig.title)) {
+      // Check title (handle HTML entities)
+      const htmlEncodedTitle = pageConfig.title.replace(/&/g, '&amp;');
+      if (content.includes(pageConfig.title) || content.includes(htmlEncodedTitle)) {
         console.log(`   ✅ Title: "${pageConfig.title}"`);
       } else {
         console.log(`   ❌ Title missing or incorrect`);
+        console.log(`   Expected: "${pageConfig.title}"`);
+        console.log(`   Or: "${htmlEncodedTitle}"`);
         allPassed = false;
       }
       
