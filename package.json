@@ -13,7 +13,8 @@
     "build:verify": "node scripts/verify-seo.js",
     "preview": "vite preview",
     "seo:test": "node scripts/test-seo.js",
-    "seo:full": "npm run seo:test && npm run build && npm run build:verify"
+    "seo:full": "npm run seo:test && npm run build && npm run build:verify",
+    "test:crawler": "node scripts/test-crawler-readability.js"
   },
   "dependencies": {
     "react": "^19.1.0",
